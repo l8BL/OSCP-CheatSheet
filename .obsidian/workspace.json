@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Information Gathering/2. WEB/GIT.md",
+                "file": "9. tunneling, pivoting/2. SSH Tunneling.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GIT"
+              "title": "2. SSH Tunneling"
             }
           }
         ],
@@ -104,7 +104,7 @@
             }
           },
           {
-            "id": "18549ff4fff9f75c",
+            "id": "d78a589d5bc186cd",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -211,10 +211,22 @@
   },
   "active": "0c555c3852474fe1",
   "lastOpenFiles": [
+    "Database/SQLite.md",
+    "Database/MSSQL.md",
+    "2. Exploit/Reverse Shell.md",
+    "1. Information Gathering/2. WEB/2. WEB.md",
+    "Database/MySQL & MariaDB.md",
+    "1. Information Gathering/2. WEB/Webdav.md",
+    "1. Information Gathering/2. WEB/GIT.md",
+    "1. Information Gathering/2. WEB/WPScan.md",
+    "1. Information Gathering/4. DNS.md",
+    "7. AD Lateral Movement/8. Ticket issue.md",
+    "7. AD Lateral Movement/7. DCOM.md",
+    "7. AD Lateral Movement/6. Pass the Ticket .md",
+    "Tags",
     "etc/tmux.md",
     "Filetransfer/Certutil.md",
     "4. Windows Priv escal/8. mimikatz.md",
-    "2. Exploit/Reverse Shell.md",
     "4. Windows Priv escal/0. Checklists.md",
     "6. AD Attack/0. Checklists.md",
     "6. AD Attack/6. AD Attack.md",
@@ -227,19 +239,7 @@
     "3. Password Attack/3. Password Attack.md",
     "2. Exploit/Web vulns/Web vulns.md",
     "2. Exploit/2. Exploit.md",
-    "1. Information Gathering/1. Port Scan.md",
-    "1. Information Gathering/1. Information Gathering.md",
-    "2. Exploit/Redis.md",
-    "1. Information Gathering/2. WEB/2. WEB.md",
-    "Trouble Shooting.md",
-    "5. Linux Priv escal/6. 주요 0 Day Exploits/Sudo (CVE-2021-3156, CVE-2019-14287).md",
-    "5. Linux Priv escal/6. 주요 0 Day Exploits/Polkit (CVE-2021-4034).md",
-    "5. Linux Priv escal/6. 주요 0 Day Exploits/Netfilter (CVE-2021-22555, CVE-2022-25636, CVE-2023-32233).md",
-    "5. Linux Priv escal/6. 주요 0 Day Exploits/Dirty Pipe (CVE-2022-0847).md",
-    "3. Password Attack/hashcat.md",
-    "1. Information Gathering/2. WEB/Webdav.md",
     "1. Information Gathering/3. SMTP",
-    "Tags",
     "img/Pasted image 20250715222407.png",
     "2. Exploit/Web vulns",
     "5. Linux Priv escal/6. 주요 0 Day Exploits",
