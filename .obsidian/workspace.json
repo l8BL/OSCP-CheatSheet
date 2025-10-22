@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "9. tunneling, pivoting/2. SSH Tunneling.md",
+                "file": "7. AD Lateral Movement/8. Ticket issue.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. SSH Tunneling"
+              "title": "8. Ticket issue"
             }
           }
         ],
@@ -211,8 +211,12 @@
   },
   "active": "0c555c3852474fe1",
   "lastOpenFiles": [
-    "Database/SQLite.md",
+    "1. Information Gathering/8. BloodHound (88).md",
+    "Edit/vim editor.md",
     "Database/MSSQL.md",
+    "Filetransfer/Certutil.md",
+    "9. tunneling, pivoting/2. SSH Tunneling.md",
+    "Database/SQLite.md",
     "2. Exploit/Reverse Shell.md",
     "1. Information Gathering/2. WEB/2. WEB.md",
     "Database/MySQL & MariaDB.md",
@@ -225,7 +229,6 @@
     "7. AD Lateral Movement/6. Pass the Ticket .md",
     "Tags",
     "etc/tmux.md",
-    "Filetransfer/Certutil.md",
     "4. Windows Priv escal/8. mimikatz.md",
     "4. Windows Priv escal/0. Checklists.md",
     "6. AD Attack/0. Checklists.md",
@@ -236,9 +239,6 @@
     "Pasted image 20250815010722.png",
     "5. Linux Priv escal/0. Checklists.md",
     "4. Windows Priv escal/4. Windows Priv escal.md",
-    "3. Password Attack/3. Password Attack.md",
-    "2. Exploit/Web vulns/Web vulns.md",
-    "2. Exploit/2. Exploit.md",
     "1. Information Gathering/3. SMTP",
     "img/Pasted image 20250715222407.png",
     "2. Exploit/Web vulns",

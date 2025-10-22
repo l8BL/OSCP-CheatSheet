@@ -94,3 +94,43 @@ SELECT * FROM OPENROWSET(BULK 'C:\Users\Administrator\Desktop\root.txt',SINGLE_C
 ```sql
 SELECT r.name AS role, m.name AS member FROM sys.server_principals r JOIN sys.server_role_members rm ON r.principal_id = rm.role_principal_id JOIN sys.server_principals m ON rm.member_principal_id = m.principal_id WHERE r.name = 'sysadmin';
 ```
+
+### Enum links
+```mssql
+# only for impacket-mssqlclient
+enum_links
+
+# For mssql
+-- 링크된 서버 목록 조회 
+EXEC sp_linkedservers; 
+-- 시스템 뷰로 조회 
+SELECT * FROM sys.servers WHERE is_linked = 1; 
+-- 더 상세한 정보 
+SELECT srv.name AS LinkedServerName, srv.product, srv.provider, srv.data_source, srv.location FROM sys.servers srv WHERE srv.server_id != 0; 
+-- 0은 로컬 서버 
+-- 링크 서버의 로그인 매핑 확인 
+EXEC sp_helplinkedsrvlogin;
+
+```
+
+### Use links
+```mssql
+# only for imapcket-mssqlclient
+use_link [link_name]
+
+
+# For mssql
+-- OPENQUERY 사용
+SELECT * FROM OPENQUERY([LinkedServerName], 'SELECT @@version');
+
+-- AT 절 사용 (EXEC AT)
+EXEC ('SELECT @@servername') AT [LinkedServerName];
+
+-- 4부분 이름 사용
+SELECT * FROM [LinkedServerName].[DatabaseName].[Schema].[Table];
+
+-- 예시
+SELECT * FROM [BACKUP-SQL].[master].[sys].[databases];
+
+```
+
